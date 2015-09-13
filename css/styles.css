@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0b1 | 201101
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define visible focus styles!
+:focus {
+  outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+::selection {
+  background: #000; /* Safari */
+  color:#fff;
+  }
+::-moz-selection {
+  background: #000; /* Safari */
+  color:#fff;
+}
+
+div {
+  display:none;
+  width:100%;
+  height:100%;
+  text-align:left;
+  position: relative;
+  font-size: 80%;
+}
+
+body {
+  background-color: #444;
+  color: #ccc;
+  padding: 25px 75px 75px 75px;
+  font-family:Helvetica;
+}
+h1{
+/*  font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica,sans-serif;
+  font-weight: 300;
+*/
+}
+h2, h3{
+  font-weight:normal;
+}
+
+h1, h2, h3{
+  letter-spacing: -2px;
+  font-size:65px;
+  /*line-height:70px;*/
+}
+
+.code {
+  background:#333;
+  color:#8AFF99;
+  padding-top:20px;
+}
+.highlight{
+  color: #ccc;
+}
+.code pre {
+  border:none;
+  font-size:50px;
+  font-family:"Menlo";
+  font-weight:normal;
+  letter-spacing:0;
+  padding:15px;
+  border-top:2px solid #fff;
+  border-bottom:1px solid #fff;
+}
+.code.smaller pre {
+  font-size:25px;
+  line-height:30px;
+}
+
+h3 {
+  font-size:18px;
+  letter-spacing:0px;
+  padding:5px 0px 20px 0;
+  text-transform:uppercase;
+  font-weight:normal;
+}
+
+p{
+  font-size: 48px;
+  margin-top: 35px;
+  color: #969696;
+}
+
+.foot{
+  position:absolute;
+  bottom:20px;
+}
+.darker{
+  color:#727272;
+}
+.smaller h2, h2.smaller{
+  letter-spacing: 0px;
+  font-size:22px;
+  margin-bottom:15px;
+  height:60px;
+}
+.lightgreen, .lightgreen a{
+  color:#7BD6A2;
+}
+.lightblue, .lightblue a{
+  color:#73C9F1;
+}
+.lightgreen a, .lightblue a{
+  text-decoration: underline;
+}
+.img-padding img{
+  padding:15px;
+  background-color:white;
+}
+img{
+  padding-top: 20px;
+}
+.section{
+  position: absolute;
+  top:-35px;
+  right: 30px;
+  font-family: 'helvetica',sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #808080;
+}
+a{
+  color:#00E0FF;
+  text-decoration: none;
+}
+a:hover{
+  color:#fc0;
+  /*text-decoration: underline;*/
+}
+.midsize{
+  font-size:60px;
+}
+.clearfix{
+  clear:both;
+}
+.clearfix.bump{
+  display:block;
+  padding-bottom: 20px;
+}
+.darker.beast-red{
+  color:#A05651;
+}
+
+.foot.grey{
+  color:#727272;
+  right:0;
+}
+.foot.grey a{
+  color:#727272;
+  text-decoration: underline;
+}
+.slide-link{
+  color:#70CF9A;
+  font-size:70px;
+  margin-top:100px;
+}
+.h2-ex{
+  font-size:14px;
+  padding-top:10px;
+  line-height: 28px
+}
+.bottom{
+  transform: translateY(200px);
+  display: inline-block;
+}
+.bg-image{
+  width: 1024px;
+  height: 1024px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.overlay-text-container{
+  position: absolute;
+  top: 550px;
+  left: 75px;
+  padding-right: 15px;
+}
+
+.overlay-text-container a{
+  color: #c6c;
+  font-size: 45px;
+  display: block;
+  margin-bottom: 70px;
+}
+.overlay-text-container a:hover{
+  text-decoration: underline;
+}
+.emoji{
+  font-size: 112px;
+}
